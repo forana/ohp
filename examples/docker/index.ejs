@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ohp, hello docker!</title>
+    </head>
+    <body>
+        <p>ohp! hello docker! here are a bunch of random integers:</p>
+        <p>
+            <%
+                var nums = [];
+                for (var i = 0; i < 128; i++) {
+                    nums.push(Math.floor(Math.random() * 16));
+                }
+            %>
+            <%= nums.join(' ') %>
+        </p>
+    </body>
+</html>

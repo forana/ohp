@@ -19,7 +19,7 @@ All of this is way overboard for what this dumb thing is supposed to be.
 * feature: custom error pages
 * feature: integrate ejs caching
 * feature: static file cache
-* feature: docker image
+* ~~feature: docker image~~
 * question: log frameworks?
 * documentation: usage as lib
 * documentation: start a list of convenient antipatterns for this

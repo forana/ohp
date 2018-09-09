@@ -48,7 +48,7 @@ If you don't want to install `ohp` globally, you can use [yarn](https://yarnpkg.
 yarn && yarn start examples/hello-world
 ```
 
-Either way, navigate to `http://localhost:8080/` to check it out.
+Either way, navigate to `http://localhost:8080/` to check it out. There are more examples [in this repo](https://github.com/forana/ohp/tree/master/examples/).
 
 ## Dynamic content
 
@@ -57,6 +57,10 @@ Either way, navigate to `http://localhost:8080/` to check it out.
 ## Logging
 
 `ohp` logs to standard out. Pipe that somewhere else if you need it somewhere else.
+
+## Docker
+
+[On Docker Hub](https://hub.docker.com/r/forana/ohp/)
 
 ## License
 
