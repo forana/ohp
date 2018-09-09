@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ohp, hello world!</title>
+        <title>ohp, hello world!</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
-        Ohp! Hello world!
+        <header>ohp! hello world!</header>
+        <div>
+            <%# require moment, print out a timestamp %>
+            <% var moment = require('moment') %>
+            this was rendered at <%= moment().format() %>
+
+            <%# set a custom header %>
+            <% resp.setHeader('X-Hello-World', 'ohp') %>
+
+            <%# throw a debug log statement out there (default log level is 'info' - you'll need to run with '-l debug' to see this) %>
+            <% log.debug('hello!') %>
+        </div>
+        <div><a href="https://github.com/forana/ohp">now what?</a></div>
     </body>
 </html>
