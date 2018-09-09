@@ -1,6 +1,6 @@
 {
   "name": "ohp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Overly-simple Hypertext Preprocessing",
   "repository": "https://github.com/forana/ohp",
   "author": "alex@alexforan.com",
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "start": "babel src -d dist && chmod +x dist/main.js && dist/main.js",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "prepare": "babel src -d dist"
   },
   "bin": "dist/main.js",
   "dependencies": {
